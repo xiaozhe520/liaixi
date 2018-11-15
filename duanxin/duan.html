@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="jquery-1.12.4.min.js"></script>
+</head>
+<body>
+<form action="ce.php" method="post" >
+	<p>用户名:<input type="text" name="username" id="username"></p>
+	<p>密码：<input type="password" name="pwd"></p>
+	<p>电话：<input type="text" name="phone" id="phone"></p>
+	<p>验证码：<input type="text" name="code"> <input type="button" value="获取验证码" class="ma"></p>
+	<p><input type="submit" value="注册"></p>
+	</form>
+</body>
+</html>
+<script>
+	//获取验证码
+	$(".ma").on('click',function(){
+		var phone = $("#phone").val();
+		$.ajax({
+			url:"CCP_REST_SMS_DEMO_PHP_v2.6r/SendTemplateSMS.php",
+			data:{'phone':phone},
+			type:'get',
+			dataType:'json',
+			success:function(data){
+              console.log(data);
+			}
+		})
+	})
+
+   // function fun(){
+   // 	 var username = $('#username').val();
+   // 	 if (username=='') {
+   // 	 	return false;
+   // 	 }
+   // 	 return true; 
+   // }
+</script>
