@@ -1,0 +1,60 @@
+<ERROR_BLOCK>
+errorInfo: file_get_contents(https://graph.qq.com/oauth2.0/me?access_token=allback( {&quot;error&quot;:100020,&quot;error_description&quot;:&quot;code is reused error&quot;} );): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 47
+errorCode: 2
+errorTime: 2018-11-05 15:54:28
+#0 IWEB_PATH/controllers/site.php(47): file_get_contents(https://graph.qq.com/oauth2.0/me?access_token=allback( {"error":100020,"error_description":"code is reused error"} );)
+#1 : Site->index()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: file_get_contents(https://graph.qq.com/oauth2.0/me?access_token=allback( {&quot;error&quot;:100020,&quot;error_description&quot;:&quot;code is reused error&quot;} );): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 47
+errorCode: 2
+errorTime: 2018-11-05 16:00:22
+#0 IWEB_PATH/controllers/site.php(47): file_get_contents(https://graph.qq.com/oauth2.0/me?access_token=allback( {"error":100020,"error_description":"code is reused error"} );)
+#1 : Site->index()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: figureurl_qq_1
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 59
+errorCode: 8
+errorTime: 2018-11-05 16:00:23
+#0 : Site->index()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: nickname
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 60
+errorCode: 8
+errorTime: 2018-11-05 16:00:23
+#0 : Site->index()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run()
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

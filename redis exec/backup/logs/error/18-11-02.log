@@ -1,0 +1,17 @@
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant content - assumed 'content'
+errorFile: IWEB_PATH/plugins/_userInfo/_userInfo.php
+errorLine: 277
+errorCode: 8
+errorTime: 2018-11-02 19:39:11
+#0 : _userInfo->userRegAct()
+#1 IWEB_PATH/classes/plugin.php(106): call_user_func_array()
+#2 IWEB_PATH/controllers/simple.php(58): plugin::trigger(userRegAct)
+#3 : Simple->reg_act()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(reg_act)
+#7 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

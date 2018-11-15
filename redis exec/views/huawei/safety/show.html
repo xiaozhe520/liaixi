@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>显示</title>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<td>ID</td>
+			<td>name</td>
+			<td>pwd</td>
+			<td>time</td>
+			<td>操作</td>
+		</tr>
+		{foreach:items=$data key=$key item=$value}
+		<tr>
+			<td>{echo:$key+1}</td>
+			<td>{echo:$value['username']}</td>
+			<td>{echo:$value['userpwd']}</td>
+			<td>{echo:date('Y-m-d',$value['addtime'])}</td>
+			<td><a href="{url:/safety/delete/id/$value['id']}">删除</a>
+                <a href="{url:/safety/xiu/id/$value['id']}">修改</a>
+			</td>
+		</tr>
+		{/foreach}
+	</table>
+</body>
+</html>

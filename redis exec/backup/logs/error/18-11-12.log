@@ -1,0 +1,84 @@
+<ERROR_BLOCK>
+errorInfo: array_column() expects parameter 1 to be array, null given
+errorFile: IWEB_PATH/runtime/views/sysdefault/market/user_tong.php
+errorLine: 100
+errorCode: 2
+errorTime: 2018-11-12 19:26:42
+#0 IWEB_PATH/runtime/views/sysdefault/market/user_tong.php(100): array_column(name)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/views/sysdefault/market/user_tong.php)
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/views/sysdefault/market/user_tong.php)
+#3 IWEB_PATH/lib/web/controller/controller_class.php(167): IControllerBase->renderView(IWEB_PATH/views/sysdefault/market/user_tong,)
+#4 IWEB_PATH/lib/web/action/view_action.php(35): IController->render(IWEB_PATH/views/sysdefault/market/user_tong,)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(374): IViewAction->run()
+#6 IWEB_PATH/controllers/market.php(19): IController->redirect(user_tong)
+#7 : Market->user_tong()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(user_tong)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: array_column() expects parameter 1 to be array, null given
+errorFile: IWEB_PATH/runtime/views/sysdefault/market/user_tong.php
+errorLine: 101
+errorCode: 2
+errorTime: 2018-11-12 19:26:42
+#0 IWEB_PATH/runtime/views/sysdefault/market/user_tong.php(101): array_column(store)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/views/sysdefault/market/user_tong.php)
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/views/sysdefault/market/user_tong.php)
+#3 IWEB_PATH/lib/web/controller/controller_class.php(167): IControllerBase->renderView(IWEB_PATH/views/sysdefault/market/user_tong,)
+#4 IWEB_PATH/lib/web/action/view_action.php(35): IController->render(IWEB_PATH/views/sysdefault/market/user_tong,)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(374): IViewAction->run()
+#6 IWEB_PATH/controllers/market.php(19): IController->redirect(user_tong)
+#7 : Market->user_tong()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(user_tong)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: array_values() expects parameter 1 to be array, null given
+errorFile: IWEB_PATH/runtime/views/sysdefault/market/user_tong.php
+errorLine: 116
+errorCode: 2
+errorTime: 2018-11-12 19:26:42
+#0 IWEB_PATH/runtime/views/sysdefault/market/user_tong.php(116): array_values()
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/views/sysdefault/market/user_tong.php)
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/views/sysdefault/market/user_tong.php)
+#3 IWEB_PATH/lib/web/controller/controller_class.php(167): IControllerBase->renderView(IWEB_PATH/views/sysdefault/market/user_tong,)
+#4 IWEB_PATH/lib/web/action/view_action.php(35): IController->render(IWEB_PATH/views/sysdefault/market/user_tong,)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(374): IViewAction->run()
+#6 IWEB_PATH/controllers/market.php(19): IController->redirect(user_tong)
+#7 : Market->user_tong()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(user_tong)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: array_values() expects parameter 1 to be array, null given
+errorFile: IWEB_PATH/runtime/views/sysdefault/market/user_tong.php
+errorLine: 127
+errorCode: 2
+errorTime: 2018-11-12 19:26:42
+#0 IWEB_PATH/runtime/views/sysdefault/market/user_tong.php(127): array_values()
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/views/sysdefault/market/user_tong.php)
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/views/sysdefault/market/user_tong.php)
+#3 IWEB_PATH/lib/web/controller/controller_class.php(167): IControllerBase->renderView(IWEB_PATH/views/sysdefault/market/user_tong,)
+#4 IWEB_PATH/lib/web/action/view_action.php(35): IController->render(IWEB_PATH/views/sysdefault/market/user_tong,)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(374): IViewAction->run()
+#6 IWEB_PATH/controllers/market.php(19): IController->redirect(user_tong)
+#7 : Market->user_tong()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(user_tong)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

@@ -1,0 +1,824 @@
+<ERROR_BLOCK>
+errorInfo: Undefined variable: gname
+errorFile: IWEB_PATH/controllers/security.php
+errorLine: 48
+errorCode: 8
+errorTime: 2018-11-14 16:00:25
+#0 : Security->xian()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(xian)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: gname
+errorFile: IWEB_PATH/controllers/security.php
+errorLine: 48
+errorCode: 8
+errorTime: 2018-11-14 16:00:35
+#0 : Security->xian()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(xian)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: gname
+errorFile: IWEB_PATH/controllers/security.php
+errorLine: 48
+errorCode: 8
+errorTime: 2018-11-14 16:00:50
+#0 : Security->xian()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(xian)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: ZipArchive::close(): Renaming temporary file failed: Invalid argument
+errorFile: IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php
+errorLine: 398
+errorCode: 2
+errorTime: 2018-11-14 16:29:01
+#0 IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(398): ZipArchive->close()
+#1 IWEB_PATH/controllers/security.php(78): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#2 : Security->daochu()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(daochu)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: Could not close zip file public/员工信息表.xlsx.
+excepFile: E:\www.iwebshop.com\iwebshop\plugins\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php
+excepLine: 399
+excepCode: 0
+excepTime: 2018-11-14 16:29:02
+#0 IWEB_PATH/controllers/security.php(78): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#1 : Security->daochu()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(daochu)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: ZipArchive::close(): Renaming temporary file failed: Invalid argument
+errorFile: IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php
+errorLine: 398
+errorCode: 2
+errorTime: 2018-11-14 16:29:47
+#0 IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(398): ZipArchive->close()
+#1 IWEB_PATH/controllers/security.php(78): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#2 : Security->daochu()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(daochu)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: Could not close zip file public/员工信息表.xlsx.
+excepFile: E:\www.iwebshop.com\iwebshop\plugins\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php
+excepLine: 399
+excepCode: 0
+excepTime: 2018-11-14 16:29:47
+#0 IWEB_PATH/controllers/security.php(78): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#1 : Security->daochu()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(daochu)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: ZipArchive::close(): Renaming temporary file failed: Invalid argument
+errorFile: IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php
+errorLine: 398
+errorCode: 2
+errorTime: 2018-11-14 16:29:59
+#0 IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(398): ZipArchive->close()
+#1 IWEB_PATH/controllers/security.php(78): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(员工信息表.xlsx)
+#2 : Security->daochu()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(daochu)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: Could not close zip file 员工信息表.xlsx.
+excepFile: E:\www.iwebshop.com\iwebshop\plugins\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php
+excepLine: 399
+excepCode: 0
+excepTime: 2018-11-14 16:29:59
+#0 IWEB_PATH/controllers/security.php(78): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(员工信息表.xlsx)
+#1 : Security->daochu()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(daochu)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: ZipArchive::close(): Renaming temporary file failed: Invalid argument
+errorFile: IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php
+errorLine: 398
+errorCode: 2
+errorTime: 2018-11-14 16:31:53
+#0 IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(398): ZipArchive->close()
+#1 IWEB_PATH/controllers/security.php(78): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(员工信息表.xlsx)
+#2 : Security->daochu()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(daochu)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: Could not close zip file 员工信息表.xlsx.
+excepFile: E:\www.iwebshop.com\iwebshop\plugins\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php
+excepLine: 399
+excepCode: 0
+excepTime: 2018-11-14 16:31:53
+#0 IWEB_PATH/controllers/security.php(78): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(员工信息表.xlsx)
+#1 : Security->daochu()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(daochu)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: ZipArchive::close(): Renaming temporary file failed: Invalid argument
+errorFile: IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php
+errorLine: 398
+errorCode: 2
+errorTime: 2018-11-14 16:34:48
+#0 IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(398): ZipArchive->close()
+#1 IWEB_PATH/controllers/security.php(80): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(员工信息表.xlsx)
+#2 : Security->daochu()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(daochu)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: Could not close zip file 员工信息表.xlsx.
+excepFile: E:\www.iwebshop.com\iwebshop\plugins\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php
+excepLine: 399
+excepCode: 0
+excepTime: 2018-11-14 16:34:48
+#0 IWEB_PATH/controllers/security.php(80): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(员工信息表.xlsx)
+#1 : Security->daochu()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(daochu)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: ZipArchive::close(): Renaming temporary file failed: Invalid argument
+errorFile: IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php
+errorLine: 398
+errorCode: 2
+errorTime: 2018-11-14 16:34:58
+#0 IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(398): ZipArchive->close()
+#1 IWEB_PATH/controllers/security.php(80): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(员工信息表.xlsx)
+#2 : Security->daochu()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(daochu)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: Could not close zip file 员工信息表.xlsx.
+excepFile: E:\www.iwebshop.com\iwebshop\plugins\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php
+excepLine: 399
+excepCode: 0
+excepTime: 2018-11-14 16:34:58
+#0 IWEB_PATH/controllers/security.php(80): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(员工信息表.xlsx)
+#1 : Security->daochu()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(daochu)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: ZipArchive::close(): Renaming temporary file failed: Invalid argument
+errorFile: IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php
+errorLine: 398
+errorCode: 2
+errorTime: 2018-11-14 16:36:14
+#0 IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(398): ZipArchive->close()
+#1 IWEB_PATH/controllers/security.php(80): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(员工信息表.xlsx)
+#2 : Security->daochu()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(daochu)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: Could not close zip file 员工信息表.xlsx.
+excepFile: E:\www.iwebshop.com\iwebshop\plugins\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php
+excepLine: 399
+excepCode: 0
+excepTime: 2018-11-14 16:36:14
+#0 IWEB_PATH/controllers/security.php(80): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(员工信息表.xlsx)
+#1 : Security->daochu()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(daochu)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: ZipArchive::close(): Renaming temporary file failed: Invalid argument
+errorFile: IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php
+errorLine: 398
+errorCode: 2
+errorTime: 2018-11-14 16:39:19
+#0 IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(398): ZipArchive->close()
+#1 IWEB_PATH/controllers/security.php(80): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#2 : Security->daochu()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(daochu)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: Could not close zip file public/员工信息表.xlsx.
+excepFile: E:\www.iwebshop.com\iwebshop\plugins\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php
+excepLine: 399
+excepCode: 0
+excepTime: 2018-11-14 16:39:19
+#0 IWEB_PATH/controllers/security.php(80): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#1 : Security->daochu()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(daochu)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: ZipArchive::close(): Renaming temporary file failed: Invalid argument
+errorFile: IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php
+errorLine: 398
+errorCode: 2
+errorTime: 2018-11-14 16:45:11
+#0 IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(398): ZipArchive->close()
+#1 IWEB_PATH/controllers/security.php(80): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#2 : Security->daochu()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(daochu)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: Could not close zip file public/员工信息表.xlsx.
+excepFile: E:\www.iwebshop.com\iwebshop\plugins\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php
+excepLine: 399
+excepCode: 0
+excepTime: 2018-11-14 16:45:11
+#0 IWEB_PATH/controllers/security.php(80): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#1 : Security->daochu()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(daochu)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: ZipArchive::close(): Renaming temporary file failed: Invalid argument
+errorFile: IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php
+errorLine: 398
+errorCode: 2
+errorTime: 2018-11-14 18:44:31
+#0 IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(398): ZipArchive->close()
+#1 IWEB_PATH/controllers/security.php(80): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#2 : Security->chu()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(chu)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: Could not close zip file public/员工信息表.xlsx.
+excepFile: E:\www.iwebshop.com\iwebshop\plugins\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php
+excepLine: 399
+excepCode: 0
+excepTime: 2018-11-14 18:44:31
+#0 IWEB_PATH/controllers/security.php(80): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#1 : Security->chu()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(chu)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: ZipArchive::close(): Renaming temporary file failed: Invalid argument
+errorFile: IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php
+errorLine: 398
+errorCode: 2
+errorTime: 2018-11-14 18:44:52
+#0 IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(398): ZipArchive->close()
+#1 IWEB_PATH/controllers/security.php(80): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#2 : Security->chu()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(chu)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: Could not close zip file public/员工信息表.xlsx.
+excepFile: E:\www.iwebshop.com\iwebshop\plugins\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php
+excepLine: 399
+excepCode: 0
+excepTime: 2018-11-14 18:44:52
+#0 IWEB_PATH/controllers/security.php(80): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#1 : Security->chu()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(chu)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: ZipArchive::close(): Renaming temporary file failed: Invalid argument
+errorFile: IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php
+errorLine: 398
+errorCode: 2
+errorTime: 2018-11-14 18:46:26
+#0 IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(398): ZipArchive->close()
+#1 IWEB_PATH/controllers/security.php(81): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#2 : Security->chu()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(chu)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: Could not close zip file public/员工信息表.xlsx.
+excepFile: E:\www.iwebshop.com\iwebshop\plugins\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php
+excepLine: 399
+excepCode: 0
+excepTime: 2018-11-14 18:46:26
+#0 IWEB_PATH/controllers/security.php(81): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#1 : Security->chu()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(chu)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: ZipArchive::close(): Closing zip archive failed: Invalid argument
+errorFile: IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php
+errorLine: 398
+errorCode: 2
+errorTime: 2018-11-14 18:59:27
+#0 IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(398): ZipArchive->close()
+#1 IWEB_PATH/controllers/security.php(82): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#2 : Security->chu()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(chu)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: Could not close zip file public/员工信息表.xlsx.
+excepFile: E:\www.iwebshop.com\iwebshop\plugins\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php
+excepLine: 399
+excepCode: 0
+excepTime: 2018-11-14 18:59:27
+#0 IWEB_PATH/controllers/security.php(82): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#1 : Security->chu()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(chu)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: ZipArchive::close(): Renaming temporary file failed: Invalid argument
+errorFile: IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php
+errorLine: 398
+errorCode: 2
+errorTime: 2018-11-14 18:59:44
+#0 IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(398): ZipArchive->close()
+#1 IWEB_PATH/controllers/security.php(82): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#2 : Security->chu()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(chu)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: Could not close zip file public/员工信息表.xlsx.
+excepFile: E:\www.iwebshop.com\iwebshop\plugins\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php
+excepLine: 399
+excepCode: 0
+excepTime: 2018-11-14 18:59:44
+#0 IWEB_PATH/controllers/security.php(82): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#1 : Security->chu()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(chu)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: ZipArchive::close(): Renaming temporary file failed: Invalid argument
+errorFile: IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php
+errorLine: 398
+errorCode: 2
+errorTime: 2018-11-14 19:00:10
+#0 IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(398): ZipArchive->close()
+#1 IWEB_PATH/controllers/security.php(82): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#2 : Security->chu()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(chu)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: Could not close zip file public/员工信息表.xlsx.
+excepFile: E:\www.iwebshop.com\iwebshop\plugins\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php
+excepLine: 399
+excepCode: 0
+excepTime: 2018-11-14 19:00:10
+#0 IWEB_PATH/controllers/security.php(82): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/员工信息表.xlsx)
+#1 : Security->chu()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(chu)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: File "test.xlsx" does not exist.
+excepFile: E:\www.iwebshop.com\iwebshop\plugins\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php
+excepLine: 137
+excepCode: 0
+excepTime: 2018-11-14 19:03:44
+#0 IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(389): PhpOffice\PhpSpreadsheet\Shared\File::assertFile(test.xlsx)
+#1 IWEB_PATH/controllers/security.php(89): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load(test.xlsx)
+#2 : Security->ru()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(ru)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: gnmae
+errorFile: IWEB_PATH/controllers/security.php
+errorLine: 59
+errorCode: 8
+errorTime: 2018-11-14 19:20:09
+#0 : Security->xian()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(xian)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/views/huawei/security/xian.php
+errorLine: 23
+errorCode: 2
+errorTime: 2018-11-14 19:20:09
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/views/huawei/security/xian.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/views/huawei/security/xian.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(167): IControllerBase->renderView(IWEB_PATH/views/huawei/security/xian,)
+#3 IWEB_PATH/lib/web/action/view_action.php(35): IController->render(IWEB_PATH/views/huawei/security/xian,)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(374): IViewAction->run()
+#5 IWEB_PATH/controllers/security.php(74): IController->redirect(xian)
+#6 : Security->xian()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(xian)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: gnmae
+errorFile: IWEB_PATH/controllers/security.php
+errorLine: 59
+errorCode: 8
+errorTime: 2018-11-14 19:20:22
+#0 : Security->xian()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(xian)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/views/huawei/security/xian.php
+errorLine: 23
+errorCode: 2
+errorTime: 2018-11-14 19:20:22
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/views/huawei/security/xian.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/views/huawei/security/xian.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(167): IControllerBase->renderView(IWEB_PATH/views/huawei/security/xian,)
+#3 IWEB_PATH/lib/web/action/view_action.php(35): IController->render(IWEB_PATH/views/huawei/security/xian,)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(374): IViewAction->run()
+#5 IWEB_PATH/controllers/security.php(74): IController->redirect(xian)
+#6 : Security->xian()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(xian)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: gnmae
+errorFile: IWEB_PATH/controllers/security.php
+errorLine: 59
+errorCode: 8
+errorTime: 2018-11-14 19:21:15
+#0 : Security->xian()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(xian)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: gnmae
+errorFile: IWEB_PATH/controllers/security.php
+errorLine: 59
+errorCode: 8
+errorTime: 2018-11-14 19:21:32
+#0 : Security->xian()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(xian)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: gnmae
+errorFile: IWEB_PATH/controllers/security.php
+errorLine: 59
+errorCode: 8
+errorTime: 2018-11-14 19:21:46
+#0 : Security->xian()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(xian)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: gnmae
+errorFile: IWEB_PATH/controllers/security.php
+errorLine: 59
+errorCode: 8
+errorTime: 2018-11-14 19:26:08
+#0 : Security->xian()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(xian)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/views/huawei/security/xian.php
+errorLine: 23
+errorCode: 2
+errorTime: 2018-11-14 19:26:08
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/views/huawei/security/xian.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/views/huawei/security/xian.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(167): IControllerBase->renderView(IWEB_PATH/views/huawei/security/xian,)
+#3 IWEB_PATH/lib/web/action/view_action.php(35): IController->render(IWEB_PATH/views/huawei/security/xian,)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(374): IViewAction->run()
+#5 IWEB_PATH/controllers/security.php(75): IController->redirect(xian)
+#6 : Security->xian()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(xian)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: gnmae
+errorFile: IWEB_PATH/controllers/security.php
+errorLine: 59
+errorCode: 8
+errorTime: 2018-11-14 19:27:02
+#0 : Security->xian()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(xian)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/views/huawei/security/xian.php
+errorLine: 23
+errorCode: 2
+errorTime: 2018-11-14 19:27:02
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/views/huawei/security/xian.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/views/huawei/security/xian.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(167): IControllerBase->renderView(IWEB_PATH/views/huawei/security/xian,)
+#3 IWEB_PATH/lib/web/action/view_action.php(35): IController->render(IWEB_PATH/views/huawei/security/xian,)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(374): IViewAction->run()
+#5 IWEB_PATH/controllers/security.php(75): IController->redirect(xian)
+#6 : Security->xian()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(xian)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: gnmae
+errorFile: IWEB_PATH/controllers/security.php
+errorLine: 59
+errorCode: 8
+errorTime: 2018-11-14 19:27:15
+#0 : Security->xian()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(xian)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: gnmae
+errorFile: IWEB_PATH/controllers/security.php
+errorLine: 59
+errorCode: 8
+errorTime: 2018-11-14 19:30:46
+#0 : Security->xian()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(xian)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/views/huawei/security/xian.php
+errorLine: 23
+errorCode: 2
+errorTime: 2018-11-14 19:30:46
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/views/huawei/security/xian.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/views/huawei/security/xian.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(167): IControllerBase->renderView(IWEB_PATH/views/huawei/security/xian,)
+#3 IWEB_PATH/lib/web/action/view_action.php(35): IController->render(IWEB_PATH/views/huawei/security/xian,)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(374): IViewAction->run()
+#5 IWEB_PATH/controllers/security.php(76): IController->redirect(xian)
+#6 : Security->xian()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(xian)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: gnmae
+errorFile: IWEB_PATH/controllers/security.php
+errorLine: 59
+errorCode: 8
+errorTime: 2018-11-14 19:31:53
+#0 : Security->xian()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(xian)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: gnmae
+errorFile: IWEB_PATH/controllers/security.php
+errorLine: 59
+errorCode: 8
+errorTime: 2018-11-14 19:31:59
+#0 : Security->xian()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(xian)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: unlink(public/yuangong.xlsx): Permission denied
+errorFile: IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php
+errorLine: 213
+errorCode: 2
+errorTime: 2018-11-14 20:03:24
+#0 IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(213): unlink(public/yuangong.xlsx)
+#1 IWEB_PATH/controllers/security.php(98): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/yuangong.xlsx)
+#2 : Security->chu()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(chu)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: ZipArchive::close(): Renaming temporary file failed: Permission denied
+errorFile: IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php
+errorLine: 398
+errorCode: 2
+errorTime: 2018-11-14 20:03:24
+#0 IWEB_PATH/plugins/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(398): ZipArchive->close()
+#1 IWEB_PATH/controllers/security.php(98): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/yuangong.xlsx)
+#2 : Security->chu()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(chu)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: Could not close zip file public/yuangong.xlsx.
+excepFile: E:\www.iwebshop.com\iwebshop\plugins\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php
+excepLine: 399
+excepCode: 0
+excepTime: 2018-11-14 20:03:24
+#0 IWEB_PATH/controllers/security.php(98): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save(public/yuangong.xlsx)
+#1 : Security->chu()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(chu)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
