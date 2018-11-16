@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="jquery-1.10.2.min.js"></script>
+</head>
+<body>
+    <form action="xin.php" method="post">
+	用户名：<input type="text" name="username"><br>
+	密码：<input type="password" name="pwd"><br>
+	手机号：<input type="text" name="phone" id="phone"><br>
+	验证码：<input type="text" name="code"><input type="button" id="duan" value="获取验证码"><br>
+	<input type="submit" value="注册">
+	</form>
+</body>
+</html>
+<script>
+	$("#duan").on('click',function(){
+		var phone=$('#phone').val();
+		$.ajax({
+			url:"mcs/SendTemplateSMS.php",
+			data:{'phone':phone},
+			type:'get',
+			dataType:'josn',
+			success:function(){
+
+			}
+		})
+	})
+</script>
