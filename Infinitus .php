@@ -1,5 +1,3 @@
-# liaixi
-每日练习
 public function actionWu(){
      $data = yii::$app->db->createCommand("select * from goods")->queryAll();
      $arr = [];
